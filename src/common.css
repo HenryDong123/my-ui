@@ -1,0 +1,33 @@
+/*340px-410px*/
+html{
+    font-size: 20px;
+}
+
+/*小于340px*/
+@media (max-width: 340px) {
+    html{
+       font-size: 18px;
+    }
+}
+/*大于410px*/
+@media (min-width: 410px) {
+    html{
+        font-size: 22px;
+    }
+}
+body{
+    max-width: 640px;
+    margin: 0 auto;
+    background: #f8f8f8;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+.my-mask{
+    position: fixed;
+    top: 0;
+    bomyom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 200;
+}

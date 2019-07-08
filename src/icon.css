@@ -1,0 +1,6 @@
+/*字体图标依赖库“font-awsome”*/
+@import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css";
+.fa{
+    display: inline-block;
+    text-align: center;
+}
