@@ -8,5 +8,29 @@
     padding-top: 2.3rem;
 }
 .my-navber ~ .my-content{
-    padding-bomyom: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.my-content .my-panel-title{
+    height: 1.8rem;
+    line-height: 1.8rem;
+    padding-left: 1rem;
+    color: #aaa;
+    background: #fff;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+    font-weight: normal;
+}
+.my-content .my-panel-body{
+    position: relative;
+    margin-bottom: .6rem;
+    padding: .6rem 1rem;
+    background: #fff;
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+/* 可手动设置内容区是否有内边距 */
+.my-content .my-panel-body.no-padding{
+    padding: 0;
 }

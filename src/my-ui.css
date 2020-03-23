@@ -4,9 +4,19 @@
 @import "./common.css";
 /*字体图标*/
 @import "./icon.css";
+
 /*标题栏样式*/
 @import "./header.css";
 /*内容区样式*/
 @import "./content.css";
 /*导航栏样式*/
 @import "./navbar.css";
+/*表单输入框*/
+@import "./input.css";
+
+/*按钮*/
+@import "button.css";
+/*搜索组件*/
+@import "search.css";
+/*网格*/
+@import "grid.css";
